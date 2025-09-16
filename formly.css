@@ -1,0 +1,39 @@
+  body {
+      margin: 0;
+      height: 100%;              /* tinggi penuh viewport */
+      display: flex;              /* gunakan flexbox */
+      justify-content: center;    /* pusat horizontal */
+      align-items: center;        /* pusat vertikal */
+      background: #fcb779;        /* contoh warna latar */
+    }
+      .container {
+      border: 1px solid #e0e0e0;     /* contoh styling */
+      padding: 20px;
+      background: #e0e0e0;
+    }
+    form {
+      width: 100%;                /* lebar penuh wadah */
+      max-width: 600px;          /* lebar maksimum */
+      box-sizing: border-box;     /* sertakan padding dan border dalam lebar */
+    }
+    table {
+      width: 100%;                /* lebar penuh tabel */
+      border-style: none; 
+    }
+    td {
+      padding: 10px;              /* jarak dalam sel */
+      vertical-align: top;
+      border-style: none;       /* vertikal atas */
+    }
+    .btn {
+      display: inline-block;
+      padding: 8px 16px;
+      background: #4CAF50;    /* warna tombol */
+      color: #fff;
+      text-decoration: none;  /* hilangkan underline */
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #45a049;
+    }

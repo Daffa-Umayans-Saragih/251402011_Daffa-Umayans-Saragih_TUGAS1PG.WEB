@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="formly.css">
+  <link rel="TUGAS1.html.html" href="TUGAS1.html.html">
+
+  <title>Document</title>
+</head>
+
+
+<body justify-content="center">
+<div class="container">
+<form action="#">
+  <table align="center">
+    <fieldset style="border: none;">
+    <legend>Akun</legend>
+    <table border="1">
+    <tr>
+      <td>
+        <label for="Username" >Username:</label>
+      </td>
+      <td>
+        <input type="text" id="Username" name="Username" placeholder="cth. Awfulindonice" required/>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <label for="Password">Password:</label>
+      </td>
+      <td>
+        <input type="password" id="Password" name="Password" required placeholder="cth.Admin123"/>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <label for="Konfirmasi">Konfirmasi Password:</label>
+      </td>
+      <td>
+        <input type="password" id="Konfirmasi" name="Konfirmasi" required placeholder="cth.Admin123"/>
+      </td>
+    </tr>
+    </table>
+    </fieldset>
+
+    <fieldset style="border: none;">
+    <legend>Data Mahasiswa</legend>
+    <table border="1">
+      <tr>
+        <td>
+        <label for="Nama">Nama:</label>
+        </td>
+        <td>
+        <input type="Nama" id="Nama" name="Nama"required placeholder="cth. Daffa Umayans Saragih"/><br />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label>
+            NIM:
+          </label>
+        </td>
+        <td>
+          <input type="text" name="NIM" id="NIM" required placeholder="251402011"/>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label>
+            No. HP:
+          </label>
+        </td>
+        <td>
+          <input type="text" name="nomor" id="nomor" required placeholder="cth.081283575656"/>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Fakultas-Prodi</td>
+        <td>
+          <select required>
+            <optgroup label="Fakultas Ilmu Komputer dan Teknologi Informasi">
+              <option value="Ilmu Komputer">Ilmu Komputer</option>
+              <option value="Teknologi Informasi">Teknologi Informasi</option>
+            </optgroup>
+            <optgroup label="Fakultas Tenknik">
+              <option value="Teknik Arsitektur">Teknik Arsitektur</option>
+              <option value="Teknik Sipil">Teknik Sipil</option>
+              <option value="Teknik Lingkungan">Teknik Lingkungan</option>
+              <option value="Teknik Mesin">Teknik Mesin</option>
+              <option value="Teknik Eletro">Teknik Eletro</option>
+              <option value="Teknik Industri">Teknik Industri</option>
+              <option value="Teknik Kimia">Teknik Kimia</option>
+            </optgroup>
+          </select>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>Jenis Kelamin</td>
+        <td>  
+          <br>
+            <input type="radio" name="jk" value="Pria" required> Pria
+          </br>
+          <br>
+            <input type="radio" name="jk" value="Perempuan" required> Perempuan
+          </br>
+        </td>
+      </tr>
+      <tr>
+        <td>Informasi Yang Disukai</td>
+        <td>
+            <input type="checkbox" name="info" value="Olahraga" > Olahraga <br>
+            <input type="checkbox" name="info" value="Travelling"> Travelling <br>
+            <input type="checkbox" name="info" value="Kesehatan" > Kesehatan
+        </td>
+      </tr>
+      <tr>
+        <td>Agama</td>
+        <td>
+          <select name="Agama" id="Agama" required>
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Budha">Budha</option>
+            <option value="Konghucu">Konghucu</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Alamat</td>
+        <td>
+          <textarea name="Alamat" id="Alamat" cols="23" rows="6" required placeholder="cth.Jalan Melati No. 5, RT 001 RW 002, Kelurahan Mekar Sari, Kecamatan Cibinong, Kabupaten Bogor, Jawa Barat, 16915.  "></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <a href="TUGAS1.html.html" class="btn">SUBMIT</a>
+          <a href="form.html" class="btn">RESET</a>
+        </td>
+      </tr>
+    </table>
+    </fieldset>
+  </table>
+</body>
+</form>
+</html>
